@@ -6,9 +6,9 @@
 #include <IRremote.h>
  
 int IR_Recv = 11;   //IR Receiver Pin 3
-int redPin = 10;
-int greenPin = 9;
-int bluePin = 8;
+int redPin = 5;
+int greenPin = 6;
+int bluePin = 3;
  
 IRrecv irrecv(IR_Recv);
 decode_results results;
